@@ -1,0 +1,35 @@
+Style-aware Mid-level Representation README
+-------------------------------------------
+
+
+1. Using the code
+
+There are 2 main scripts:
+
+a) "main.m": mines style-sensitive mid-level visual elements and establishes correspondences across all decades.
+b) "viewDets.m": displays the mined mid-level visual elements and discovered correspondences.
+
+
+
+2. Notes
+
+The code assumes that the Historical Car Dataset and random background Flickr images have been downloaded (http://ladoga.graphics.cs.cmu.edu/yjlee22/web/iccv2013Style/download_data.html). 
+Please change the input and output directories in "setParameters.m" appropriately.
+The code can take several days to run on a single machine.  It is best to run it on a cluster.
+
+
+
+3. Citation
+
+Please cite our paper if you use our code:
+
+Y. J. Lee, A. A. Efros, and M. Hebert. Style-aware Mid-level Representation for Discovering Visual Connections in Space and Time. 
+Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2013.
+
+
+
+4. Comments
+
+(7/06/2014) v0: first release.
+
+
